@@ -1,0 +1,2019 @@
+*{
+    /* put some animation transition background color */
+    transition: background-color 1s;
+    
+    /* make the background color go to the lightgray */
+    background-color:  lightblue;
+
+    /* make it have glow effect */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have rounded corners */
+    border-radius: 10px;
+
+    /* user can't select some text */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+#title {
+    /* make it center and have animate */
+    text-align: center;
+    animation: fadein 2s;
+
+    /* make it have rounded corners */
+    border-radius: 10px;
+    
+    /* make it have a white background */
+    background-color: white;
+    
+    /* make it have a black border */
+    border: 1px solid black;
+
+    /* make it have a black text */
+    color: black;
+
+    /* make it have a black text */
+    font-size: 30px;
+
+    /* make it have a black text */
+    font-family: "Times New Roman", Times, serif;
+
+    /* make it have a black text */
+    font-weight: bold;
+
+    /* make it have a black text */
+    text-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    letter-spacing: 2px;
+
+    /* make it have a black text */
+    word-spacing: 2px;
+
+    /* make the line height have animation slide down */
+    line-height: 1.5;
+
+    /* make it have a black text */
+    font-size: 30px;
+
+    /* make it have transition slide down*/
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+}
+
+@keyframe slideDown {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+/* if the cursor hover the title put some transition */
+#title:hover {
+
+
+    /* put some shadow */
+    text-shadow: 1px 5px 10px rgb(99, 99, 99);
+
+    /* make the line height little bit heigher */
+    line-height: 2.5;
+
+    /* change the background color */
+    background-color: rgb(99, 99, 99);
+
+    /* change the text color */
+    color: white;
+
+    /* make it even better text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    font-size: 50px;
+
+    /* make it have a black text */
+    font-family:'Courier New', Courier, monospace;
+
+    /* make it have a black text */
+    font-weight: italic;
+
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+    
+    /* put some cool effect */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    letter-spacing: 20px;
+
+    /* make it have a black text */
+    word-spacing: 5px;
+}
+
+#difficult {
+    /* make it center vertical and horizontal */
+    text-align: center;
+    vertical-align: middle;
+
+    /* make it have rounded corners */
+    border-radius: 10px;
+
+    /* make it have a white background */
+    background-color: white;
+
+    /* make it have a black text */
+    color: black;
+
+    /* make it have a black text */
+    font-size: 30px;
+
+    /* make it have a black text */
+    font-family: "Times New Roman", Times, serif;
+
+    /* make it have a black text */
+    font-weight: bold;
+
+    /* make it have a black text */
+    text-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    letter-spacing: 2px;
+    
+    /* make it cool effect */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+}
+
+/* if the cursor hover the text put some transition */
+#difficult:hover {
+
+    /* make it have a black text */
+    color: white;
+
+    /* make it have a black text */
+    font-size: 40px;
+
+    /* make it have a black text */
+    font-family:'Courier New', Courier, monospace;
+
+    /* make it have a black text */
+    font-weight: italic;
+
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    letter-spacing: 25px;
+
+    /* make it have a black text */
+    word-spacing: 5px;
+
+    /* make it have a black text */
+    box-shadow: 4px 5px 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+}
+
+/* if the text no longer hover it put some animate */
+#difficult:not(:hover) {
+
+      /* make it center vertical and horizontal */
+    text-align: center;
+    vertical-align: middle;
+
+    /* make it have rounded corners */
+    border-radius: 10px;
+
+    /* make it have a white background */
+    background-color: white;
+
+    /* make it have a black text */
+    color: black;
+
+    /* make it have a black text */
+    font-size: 30px;
+
+    /* make it have a black text */
+    font-family: "Times New Roman", Times, serif;
+
+    /* make it have a black text */
+    font-weight: bold;
+
+    /* make it have a black text */
+    text-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    letter-spacing: 2px;
+    
+    /* make it cool effect */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have transition slide down*/
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+}
+
+#difficult-menu {
+   /* make it cool even better */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    color: black;
+
+    /* make it have a black text */
+    font-size: 15px;
+
+    /* make it have a black text */
+    font-family:'Courier New', Courier, monospace;
+
+    /* make it have a black text */
+    font-weight: italic;
+
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    letter-spacing: 5px;
+
+    /* make it have a black text */
+    word-spacing: 5px;
+
+    /* make it have a black text */
+    text-align: center;
+
+    /* make it have a black text */
+    vertical-align: middle;
+
+    /* make it have a black text */
+    font-weight: bold;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+}
+
+/* if the difficult-menu hover or even click put some animate */
+#difficult-menu:hover {
+
+    /* make it have a black text */
+    color: white;
+
+    /* make it have a black text */
+    font-size: 20px;
+
+    /* make it have a black text */
+    font-family:'Courier New', Courier, monospace;
+
+    /* make it have a black text */
+    font-weight: italic;
+
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    letter-spacing: 5px;
+
+    /* make it have a black text */
+    word-spacing: 5px;
+
+    /* make it have a black text */
+    text-align: center;
+
+    /* make it have a black text */
+    vertical-align: middle;
+
+    /* make it have a black text */
+    font-weight: bold;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+
+    /* make it have transition slide down*/
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+}
+
+/* if the cursor no longer hover the difficult menu make it animate */
+#difficult-menu:not(:hover) {
+
+    /* make it have a black text */
+    color: black;
+
+    /* make it have a black text */
+    font-size: 15px;
+
+    /* make it have a black text */
+    font-family:'Courier New', Courier, monospace;
+
+    /* make it have a black text */
+    font-weight: italic;
+
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    letter-spacing: 5px;
+
+    /* make it have a black text */
+    word-spacing: 5px;
+
+    /* make it have a black text */
+    text-align: center;
+
+    /* make it have a black text */
+    vertical-align: middle;
+
+    /* make it have a black text */
+    font-weight: bold;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have transition slide down*/
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+
+    /* make it have transition slide down*/
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+}
+
+#theme {
+        /* make it have a black text */
+        color: black;
+    
+        /* make it have a black text */
+        font-size: 30px;
+    
+        /* make it have a black text */
+        font-family:'Courier New', Courier, monospace;
+    
+        /* make it have a black text */
+        font-weight: italic;
+    
+        /* make it have a black text */
+        text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    
+        /* make it have a black text */
+        text-decoration: underline;
+    
+        /* make it have a black text */
+        text-transform: uppercase;
+    
+        /* make it have a black text */
+        letter-spacing: 5px;
+    
+        /* make it have a black text */
+        word-spacing: 5px;
+    
+        /* make it have a black text */
+        text-align: center;
+    
+        /* make it have a black text */
+        vertical-align: middle;
+    
+        /* make it have a black text */
+        font-weight: bold;
+    
+        /* make it have a black text */
+        text-transform: uppercase;
+    
+        /* make it have a black text */
+        box-shadow: 0 0 10px rgb(70, 70, 70);
+    
+        /* make it have transition slide down*/
+        transition: all 1s;
+    
+        /* make it have transition animation */
+        animation: slideDown 1s;
+    
+        /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+
+    /* make it have transition slide down*/
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+}
+
+/* if the cursor hover it put some animation */
+#theme:hover {
+     /* make it have transition slide down*/
+        transition: all 1s;
+    
+        /* make it have transition animation */
+        animation: slideDown 1s;
+    
+        /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+
+    /* make it have transition slide down*/
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+
+    color: white;
+
+    font-size: 40px;
+
+    text-decoration:overline;
+}
+
+#theme-menu {
+   /* make it cool even better */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    color: black;
+
+    /* make it have a black text */
+    font-size: 15px;
+
+    /* make it have a black text */
+    font-family:'Courier New', Courier, monospace;
+
+    /* make it have a black text */
+    font-weight: italic;
+
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    letter-spacing: 5px;
+
+    /* make it have a black text */
+    word-spacing: 5px;
+
+    /* make it have a black text */
+    text-align: center;
+
+    /* make it have a black text */
+    vertical-align: middle;
+
+    /* make it have a black text */
+    font-weight: bold;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+}
+
+/* if the difficult-menu hover or even click put some animate */
+#theme-menu:hover {
+
+    /* make it have a black text */
+    color: white;
+
+    /* make it have a black text */
+    font-size: 20px;
+
+    /* make it have a black text */
+    font-family:'Courier New', Courier, monospace;
+
+    /* make it have a black text */
+    font-weight: italic;
+
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    letter-spacing: 5px;
+
+    /* make it have a black text */
+    word-spacing: 5px;
+
+    /* make it have a black text */
+    text-align: center;
+
+    /* make it have a black text */
+    vertical-align: middle;
+
+    /* make it have a black text */
+    font-weight: bold;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+
+    /* make it have transition slide down*/
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+}
+
+/* if the cursor no longer hover the difficult menu make it animate */
+#theme-menu:not(:hover) {
+
+    /* make it have a black text */
+    color: black;
+
+    /* make it have a black text */
+    font-size: 15px;
+
+    /* make it have a black text */
+    font-family:'Courier New', Courier, monospace;
+
+    /* make it have a black text */
+    font-weight: italic;
+
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    letter-spacing: 5px;
+
+    /* make it have a black text */
+    word-spacing: 5px;
+
+    /* make it have a black text */
+    text-align: center;
+
+    /* make it have a black text */
+    vertical-align: middle;
+
+    /* make it have a black text */
+    font-weight: bold;
+
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have transition slide down*/
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+
+    /* make it have transition slide down*/
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+}
+
+    #anotherButton{
+        /* make it right bottom */
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    
+        height: fit-content;
+        /* make it have a black text */
+        color: black;
+    
+        /* make it have a black text */
+        font-size: 15px;
+    
+        /* make it have a black text */
+        font-family:'Courier New', Courier, monospace;
+    
+        /* make it have a black text */
+        font-weight: italic;
+    
+        /* make it have a black text */
+        text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    
+        /* make it have a black text */
+        text-decoration: underline;
+    
+        /* make it have a black text */
+        text-transform: uppercase;
+    
+        /* make it have a black text */
+        letter-spacing: 5px;
+    
+        /* make it have a black text */
+        word-spacing: 5px;
+    
+        /* make it have a black text */
+        text-align: center;
+    
+        /* make it have a black text */
+        vertical-align: middle;
+    
+        /* make it have a black text */
+        font-weight: bold;
+    
+        /* make it have a black text */
+        text-transform: uppercase;
+    
+        /* make it have a black text */
+        box-shadow: 0 0 10px rgb(70, 70, 70);
+        
+        /* make it have transition slide down*/
+        transition: all 1s;
+    
+        /* make it have transition animation */
+        animation: slideDown 1s;
+    
+        /* make it have animation slide down */
+        animation-fill-mode: forwards;
+    
+        /* make it have animation slide down */
+        animation-delay: 1s;
+    
+        /* make it have animation slide down */
+        animation-direction: alternate;
+    
+        /* make it have animation slide down */
+        animation-duration: 1s;
+    
+        /* make it have animation slide down */
+        animation-iteration-count: 1;
+    
+        /* make it have animation slide down */
+        animation-name: slideDown;
+    
+        /* make it have animation slide down */
+        animation-play-state: running;
+    
+        /* make it have animation slide down */
+        animation-timing-function: ease;
+    
+        /* make it have animation slide down */
+        animation-timing-function: ease-in;
+    
+        /* make it have animation slide down */
+        animation-timing-function: ease-out;
+    
+        /* make it have animation slide down */
+        animation-timing-function: ease-in-out;
+    
+        /* make it have transition slide down*/
+        transition: all 1s;
+    
+        /* make it have transition animation */
+        animation: slideDown 1s;
+    
+        /* make it have animation slide down */
+        animation-fill-mode: forwards;
+    
+        /* make it have animation slide down */
+        animation-delay: 1s;
+    
+        /* make it have animation slide down */
+        animation-direction: alternate;
+    
+        /* make it have animation slide down */
+        animation-duration: 1s;
+    
+        /* make it have animation slide down */
+        animation-iteration-count: 1;
+    
+        /* position at the bottom of the pages */
+        position: absolute;
+    
+        /* position very bottom at the screen */
+        bottom: 10px;
+    
+        /* make it center */
+        left: 50%;
+    
+        /* give the color of the text */
+        background-color: rgb(70, 70, 70);
+    
+        /* make it have a black text */
+        color: black;
+    
+        /* make it have a black text */
+        font-size: 15px;
+    
+        /* make it have a black text */
+        font-family:'Courier New', Courier, monospace;
+
+        /* make it not wider */
+        width: 230px;
+
+        /* make it have a black text */
+        font-weight: italic;
+
+        /* make the width not bigger */
+        /* max-width: fit-content; */
+
+        /* make it have a black text */
+        text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    }
+    
+    /* if the cursor hover the anotherButton put some transition */
+    #anotherButton:hover{
+        /* make it have a black text */
+        color: black;
+    
+        /* make it have a black text */
+        font-size: 25px;
+    
+        /* make it have a black text */
+        font-family:'Courier New', Courier, monospace;
+    
+        /* make it have a black text */
+        font-weight: italic;
+    
+        /* make it have a black text */
+        text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    
+        /* make it have a black text */
+        text-decoration: underline;
+    
+        /* make it center */
+        text-align: center;
+    
+        /* make the div center */
+        left: 50%;
+    
+        /* make the div center while the transition */
+        transform: translate(-50%, -50%);
+    
+    
+        /* make it have a black text */
+        text-transform: uppercase;
+    
+        /* make it have a black text */
+        letter-spacing: 5px;
+    
+        /* make it have a black text */
+        word-spacing: 5px;
+    
+        /* make it have a black text */
+        text-align: center;
+    
+        /* make it have a black text */
+        vertical-align: middle;
+    
+        /* make it have a black text */
+        font-weight: bold;
+    
+        /* make it have a black text */
+        text-transform: uppercase;
+    
+        /* make it have a black text */
+        box-shadow: 0 0 10px rgb(70, 70, 70);
+    
+        /* make it have transition slide down*/
+        transition: all 1s;
+    
+        /* make it have transition animation */
+        animation: slideDown 1s;
+    
+        /* make it have animation slide down */
+        animation-fill-mode: forwards;
+    
+        /* make it have animation slide down */
+        animation-delay: 1s;
+    
+        /* make it have animation slide down */
+        animation-direction: alternate;
+    
+        /* make it have animation slide down */
+        animation-duration: 1s;
+    
+        /* make it have animation slide down */
+        animation-iteration-count: 1;
+    
+        /* make it have animation slide down */
+        animation-name: slideDown;
+    
+        /* make it have animation slide down */
+        animation-play-state: running;
+    
+        /* make it have animation slide down */
+        animation-timing-function: ease;
+    
+        /* make it have animation slide
+        down */
+        animation-timing-function: ease-in;
+    
+        /* make it have animation slide down */
+        animation-timing-function: ease-out;
+    
+        /* make it have animation slide down */
+        animation-timing-function: ease-in-out;
+    
+        /* make it have transition slide down*/
+        transition: all 1s;
+    
+        /* make it have transition animation */
+        animation: slideDown 1s;
+    
+        /* make it have animation slide down */
+        animation-fill-mode: forwards;
+    
+        /* make it have animation slide down */
+        animation-delay: 1s;
+    
+        /* make it have animation slide down */
+        animation-direction: alternate;
+    
+        /* make it have animation slide down */
+        animation-duration: 1s;
+    
+        /* make it have animation slide down */
+        animation-iteration-count: 1;
+    
+        /* make it have animation slide down */
+        animation-name: slideDown;
+    
+        /* make it have animation slide down */
+        animation-play-state: running;
+    
+        /* make it have animation slide down */
+        animation-timing-function: ease;
+    
+        /* make it have animation slide down */
+        animation-timing-function: ease-in;
+    
+        /* make it have animation slide down */
+        animation-timing-function: ease-out;
+    
+        /* make it have animation slide down */
+        animation-timing-function: ease-in-out;
+    
+        /* position very bottom at the screen */
+        bottom: 10px;
+    
+        /* make it center */
+        left: 50%;
+    
+        /* give the color of the text */
+        background-color: rgb(70, 70, 70);
+    
+        /* make it have a black text */
+        color: black;
+    
+        /* make it have a black text */
+        font-size: 25px;
+    }
+    
+/* make the play-button-text go to the center */
+#play-button-text{
+    /* position go down */
+    bottom: 200px;
+
+    /* make it bigger */
+    font-size: 50px;
+
+    /* make it even better */
+    font-family:'Courier New', Courier, monospace;
+
+    /* make it have a black text */
+    color: black;
+
+    /* make it have a black text */
+    font-weight: italic;
+
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+
+    /* make it have a black text */
+    text-decoration: underline;
+
+    /* give it 3D effect */
+    text-align: center;
+    
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    letter-spacing: 5px;
+
+    /* give it 3D effect on the text */
+    word-spacing: 5px;
+
+    /* make it have a black text */
+    vertical-align: middle;
+
+    /* make it have a black text */
+    font-weight: normal;
+    
+    /* make it have a black text */
+    text-transform: uppercase;
+
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it have transition slide down*/
+    transition: all 1s;
+
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+
+    /* make it have animation slide down */
+    animation-delay: 1s;
+
+    /* make it have animation slide down */
+    animation-direction: alternate;
+
+    /* make it have animation slide down */
+    animation-duration: 1s;
+
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+
+    /* make it have animation slide down */
+    animation-name: slideDown;
+
+    /* make it have animation slide down */
+    animation-play-state: running;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+
+    /* make it have animation slide
+    down */
+    animation-timing-function: ease-in;
+        
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+
+    color:rgb(255, 255, 255);
+}
+
+/* if the cursor hover the play-button-text then give it transition into 3D effect */
+#play-button-text:hover{
+    /* give it transition into 3D effect */
+    transform: rotateX(10deg) rotateY(35deg);
+
+    /* give the text move out effect */
+    transition: all 1s;
+
+    color:rgb(99, 99, 99);
+}
+
+/* give it animation when we click it */
+#play-button-text:active{
+    /* give it animation when we click it */
+    transform: rotateX(10deg) rotateY(35deg);
+
+    /* give the text move out effect */
+    transition: all 1s;
+    
+    /* change the color */
+    color: rgb(0, 0, 0);
+}
+
+#footer {
+    display: flexbox;
+    flex-wrap: wrap;
+    position: absolute;
+    /* position go to the bottom of the screen */
+    bottom: 0;
+
+}
+
+#quizContainer {
+    display: none;
+    /* position go to the center */
+    position: absolute;
+    /* position go to the center */
+    top: 50%;
+    /* position go to the center */
+    left: 50%;
+    /* position go to the center */
+    transform: translate(-50%, -50%);
+    /* make it have a black text */
+    color: black;
+    /* make it have a black text */
+    font-weight: bold;
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    /* make it have a black text */
+    text-decoration: underline;
+    /* make it have a black text */
+    text-align: center;
+}
+
+/* if we hover the question element ID make the position go out */
+#question {
+    /* make it have a black text */
+    color: black;
+    /* make it have a black text */
+    font-weight: bold;
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    /* make it have a black text */
+    text-decoration: underline;
+    /* make it have a black text */
+    text-align: center;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    letter-spacing: 5px;
+    /* make it have a black text */
+    word-spacing: 5px;
+    /* make it have a black text */
+    vertical-align: middle;
+    /* make it have a black text */
+    font-weight: normal;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+    /* make it have transition slide down*/
+    transition: all 1s;
+    /* make it have transition animation */
+    animation: slideDown 1s;
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+    /* make it have animation slide down */
+    animation-delay: 1s;
+    /* make it have animation slide down */
+    animation-direction: alternate;
+    /* make it have animation slide down */
+    animation-duration: 1s;
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+    /* make it have animation slide down */
+    animation-name: slideDown;
+    /* make it have animation slide down */
+    animation-play-state: running;
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+    color:rgb(0, 0, 0);
+}
+
+/* if we hover the question make it out from div */
+#question:hover{
+    /* make it like zoom */
+    transform: scale(5.5);
+    /* make it have a black text */
+    color: black;
+    /* make it have a black text */
+    font-weight: bold;
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    /* make it have a black text */
+    text-decoration: underline;
+    /* make it have a black text */
+    text-align: center;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    letter-spacing: 5px;
+    /* position go down */
+    position: relative;
+    /* make it have a black text */
+    word-spacing: 5px;
+    /* make it have a black text */
+    vertical-align: middle;
+    /* make it have a black text */
+    font-weight: normal;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+    /* make it have transition slide down*/
+    transition: all 1s;
+    /* make it go down with transition */
+    transform: translateY(30px);
+}
+
+/* make the choose class have space */
+.choose {
+    /* make it have a black text */
+    color: black;
+    /* make it have a black text */
+    font-weight: bold;
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    /* make it have a black text */
+    text-decoration: underline;
+    /* make it have a black text */
+    text-align: center;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    letter-spacing: 10px;
+    /* make it have a black text */
+    word-spacing: 5px;
+    /* make it have a black text */
+    vertical-align: middle;
+    /* make it have a black text */
+    font-weight: normal;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+    /* make it have transition slide down*/
+    transition: all 1s;
+    /* make it have transition animation */
+    animation: slideDown 1s;
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+    /* make it have animation slide down */
+    animation-delay: 1s;
+    /* make it have animation slide down */
+    animation-direction: alternate;
+    /* make it have animation slide down */
+    animation-duration: 1s;
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+    /* make it have animation slide down */
+    animation-name: slideDown;
+    /* make it have animation slide down */
+    animation-play-state: running;
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+    color:rgb(0, 0, 0);
+
+    /* make the button color white */
+    background-color: white;
+    /* make it have space with another space */
+    padding: 10px;
+    /* make it have a black text */
+    border: 1px solid black;
+    /* make it have a black text */
+    border-radius: 10px;
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+    /* make it have transition slide down*/
+    transition: all 1s;
+    /* make it have transition animation */
+    animation: slideDown 1s;
+
+    /* make it have size bigger */
+    font-size: 20px;
+    /* make it have a black text */
+    font-weight: bold;
+    /* make it have a black text */
+
+    /* make it heigher */
+    height: 50px;
+
+    white-space: 500px;
+}
+
+/* if we hover the choose class make it better */
+.choose:hover{
+    /* make it have a black text */
+    color: rgb(255, 255, 255);
+    /* make it have a black text */
+    font-weight: bold;
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    /* make it have a black text */
+    text-decoration: underline;
+    /* make it have a black text */
+    text-align: center;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    letter-spacing: 10px;
+    /* make it have a black text */
+    word-spacing: 5px;
+    /* make it have a black text */
+    vertical-align: middle;
+    /* make it have a black text */
+    font-weight: normal;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    box-shadow: 20px 10px 30px rgb(70, 70, 70);
+    /* make it have transition slide down*/
+    transition: all 1s;
+    /* make it go down with transition */
+    background-color: rgb(102, 102, 102);
+
+    /* make it have 3D effect transition and 3D so cool */
+    transform: rotateX(50deg) rotateY(50deg) translateX(-10px);
+}
+
+/* if we clicked the choose button make it have 3D transition */
+.choose:active{
+    /* make it have a black text */
+    color: rgb(255, 255, 255);
+    /* make it have a black text */
+    font-weight: bold;
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    /* make it have a black text */
+    text-decoration: underline;
+    /* make it have a black text */
+    text-align: center;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    letter-spacing: 10px;
+    /* make it have a black text */
+    word-spacing: 5px;
+    /* make it have a black text */
+    vertical-align: middle;
+    /* make it have a black text */
+    font-weight: normal;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+    /* make it have transition slide down*/
+    transition: all 0.4s;
+    /* make it go down with transition */
+    /* make it have 3D transition */
+    transform: translateY(-5px) rotateX(45deg) rotateY(45deg);
+/* make it have 3D block effect */
+    backface-visibility: hidden;
+    /* make it have 3D block effect */
+    perspective: 50000px;
+    /* make it have 3D block effect */
+    transform-style: preserve-3d;
+    /* make it have 3D block effect */
+    transform-origin: 150% 150%;
+    /* make it have 3D block effect */
+    transform-style: preserve-3d;
+    /* make it have 3D block effect */
+    transform-origin: 50% 50%;
+
+    background-color: rgb(102, 102, 102);
+
+    /* make it transition to position left */
+    transform: translateX(-30px);
+    /* and fade out */
+    opacity: 0;
+}
+
+
+#timer {
+    /* make it even better AND BETTER */
+    color: rgb(0, 0, 0);
+    /* make it have a black text */
+    font-weight: bold;
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    /* make it have a black text */
+    text-decoration: underline;
+    /* make it have a black text */
+    text-align: center;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    letter-spacing: 10px;
+    /* make it have a black text */
+    word-spacing: 5px;
+    /* make it have a black text */
+    vertical-align: middle;
+    /* make it have a black text */
+    font-weight: normal;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+    background-color: black;
+    /* make it have transition slide down*/
+    transition: all 1s;
+    /* make it have transition animation */
+    animation: slideDown 1s;
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+    /* make it have animation slide down */
+    animation-delay: 1s;
+    /* make it have animation slide down */
+    animation-direction: alternate;
+    /* make it have animation slide down */
+    animation-duration: 1s;
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+    /* make it have animation slide down */
+    animation-name: slideDown;
+    /* make it have animation slide down */
+    animation-play-state: running;
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+    /* make it have animation slide down */
+    animation-timing-function: linear;
+}
+
+#score {
+    /* make it have own animation */
+    animation: slideDown 1s;
+    /* make it have animation slide down */
+    animation-fill-mode: forwards;
+    /* make it have animation slide down */
+    animation-delay: 1s;
+    /* make it have animation slide down */
+    animation-direction: alternate;
+    /* make it have animation slide down */
+    animation-duration: 1s;
+    /* make it have animation slide down */
+    animation-iteration-count: 1;
+    /* make it have animation slide down */
+    animation-name: slideDown;
+    /* make it have animation slide down */
+    animation-play-state: running;
+    /* make it have animation slide down */
+    animation-timing-function: ease;
+    /* make it have animation slide down */
+    animation-timing-function: ease-in;
+    /* make it have animation slide down */
+    animation-timing-function: ease-out;
+    /* make it have animation slide down */
+    animation-timing-function: ease-in-out;
+    /* make it have animation slide down */ 
+    animation-timing-function: linear;
+    /* make it have a black text */
+    color: rgb(0, 0, 0);
+    /* make it have a black text */
+    font-weight: bold;
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    /* make it have a black text */
+    text-decoration: underline;
+    /* make it have a black text */
+    text-align: center;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    letter-spacing: 10px;
+    /* make it have a black text */
+    word-spacing: 5px;
+    /* make it have a black text */
+    vertical-align: middle;
+    /* make it have a black text */
+    font-weight: normal;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+}
+
+#home {
+    /* make it to the left */
+    transform: translateX(-30px); 
+    /* make the position to the left */
+    position: absolute;
+    /* make it have a black text */
+    color: rgb(0, 0, 0);
+    /* make it have a black text */
+    font-weight: bold;
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    /* make it have a black text */
+    text-decoration: underline;
+    /* make it have a black text */
+    text-align: center;
+    /* make it have a black text */ 
+    text-transform: uppercase;
+    /* make it have a black text */
+    letter-spacing: 10px;
+    /* make it have a black text */
+    word-spacing: 5px;
+    /* make it have a black text */
+    vertical-align: middle;
+    /* make it have a black text */
+    font-weight: normal;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+
+    /* make it to the left */
+    left: 30px;
+
+}
+
+#about {
+    /* make the position to the right side */
+    position: relative;
+    /* make it to the right */
+    transform: translateX(30px);
+    /* make it to the right */
+    right: -65px;
+    /* make it have a black text */
+    color: rgb(0, 0, 0);
+    /* make it have a black text */
+    font-weight: bold;
+    /* make it have a black text */
+    text-shadow: 5px 15px 10px rgb(70, 70, 70);
+    /* make it have a black text */
+    text-decoration: underline;
+    /* make it have a black text */
+    text-align: center;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    letter-spacing: 10px;
+    /* make it have a black text */
+    word-spacing: 5px;
+    /* make it have a black text */
+    vertical-align: middle;
+    /* make it have a black text */
+    font-weight: normal;
+    /* make it have a black text */
+    text-transform: uppercase;
+    /* make it have a black text */
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+    /* make it to the right */
+}

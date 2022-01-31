@@ -1,0 +1,513 @@
+*{
+ /* make the background looks good but not white it's darker */
+    background-color: #1a1a1a; 
+    /* nice */
+
+    /* make it cool */
+    color: #fff;
+
+    overflow: hidden;
+
+        /* user can't select some text */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.main-menu {
+    /* background go to white */
+    background-color: white;
+    /* make it a bit wider */
+    width: 100%;
+    /* make it stick to the top */
+    position: fixed;
+    /* make it stick to the top once you scroll down */
+    top: 0;
+    /* make it stick to the left */
+    left: 0;
+    /* make it a bit shorter */
+    height: 50px;
+    /* create some space below the header */
+    padding-top: 10px;
+    /* create some space above the header */
+    padding-bottom: 10px;
+    /* create some space to the right of the header */
+    padding-right: 15px;
+    /* create some space to the left of the header */
+    padding-left: 15px;
+    /* create some space between each of the links */
+    padding-right: 15px;
+    /* make sure it stays hidden */
+    display: none;
+    /* make it go away once you scroll down a bit */
+    transition: all 0.5s ease-in-out;
+    /* make it center */
+    margin: 0 auto;
+    /* make it full width */
+    width: 100%;
+    /* make it a block */
+    display: block;
+    /* make it a flex container */
+    display: flex;
+    /* make it a row */
+    flex-direction: row;
+    /* make it a horizontal list */
+    list-style: none;
+    /* make it a horizontal list */
+    padding: 0;
+    /* make it a horizontal list */
+    margin: 0;
+    /* make it a horizontal list */
+    justify-content: space-around;
+    /* make it a horizontal list */
+    align-items: center;
+    /* make it a horizontal list */
+    align-content: center;
+
+    /* make a border with shadow box rounded */
+    border: 3px solid rgb(103, 164, 245);
+    box-shadow: 0px 20px 40px rgba(255, 255, 255, 0.514);
+    border-radius: 10px;
+
+    /* make neo effect */
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+
+    /* make glowing effect */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+    /* make it go away once you scroll down a bit */
+    transition: all 0.5s ease-in-out;
+
+    /* make a glowing effect */
+    -webkit-filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+    -moz-filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+    -ms-filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+    -o-filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+    filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+
+
+    /* make it center on the screen */
+    position: fixed;
+
+    /* make it vertical position on the center */
+    top: 50%;
+    /* make it horizontal position on the center */
+    left: 50%;
+    /* make it vertical position on the center */
+    transform: translate(-50%, -50%);
+}
+
+.menu-item {
+    /* make it look better */
+    display: inline-block;
+    /* make it a block */
+    display: block;
+    /* make it a flex item */
+    display: flex;
+    /* make it a row */
+    flex-direction: row;
+    /* make it a horizontal list */
+    list-style: none;
+    /* make it a horizontal list */
+    padding: 0;
+    /* make it a horizontal list */
+    margin: 0;
+    /* make it a horizontal list */
+    justify-content: space-around;
+    /* make it a horizontal list */
+    align-items: center;
+    /* make it a horizontal list */
+    align-content: center;
+    /* make it a horizontal list */
+    align-self: center;
+    /* make it a horizontal list */
+    justify-self: center;
+    /* make it a horizontal list */
+    justify-content: center;
+    /* make it a horizontal list */
+    align-items: center;
+    /* make it a horizontal list */
+    align-content: center;
+    /* make it a horizontal list */
+    align-self: center;
+    /* make it a horizontal list */
+    justify-self: center;
+    /* make it a horizontal list */
+    justify-content: center;
+    /* make it a horizontal list */
+    align-items: center;
+    /* make it a horizontal list */
+    align-content: center;
+    /* make it a horizontal list */
+    align-self: center;
+}
+
+.menu-item a{
+    /* make the color even better */
+    color: rgb(103, 164, 245);
+    /* make the text bigger */
+    font-size: 1.5em;
+    /* make the text bigger */
+    font-weight: bold;
+    /* make the text bigger */
+    text-decoration: none;
+    /* make the text bigger */
+    text-transform: uppercase;
+    /* make the text bigger */
+    text-align: center;
+    /* make the text bigger */
+    text-decoration: none;
+    /* make the text bigger */
+    text-transform: uppercase;
+    /* make the text bigger */
+    text-align: center;
+    /* make the text bigger */
+    text-decoration: none;
+    /* make the text bigger */
+    text-transform: uppercase;
+    /* make the text bigger */
+    text-align: center;
+
+    background-color: white;
+}
+
+/* if the cursor hover the text make it have border box*/
+.menu-item a:hover{
+    transition: all 0.5s ease-in-out;
+    /* make the border have animation */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+    /* the text have animation */
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    background-color: rgb(0, 0, 0);
+    color:black
+
+    border-bottom: 3px solid rgb(236, 247, 173);
+}
+
+/* if the cursor no longer hover the box make it animate */
+.menu-item a:not(:hover){
+    transition: all 0.5s ease-in-out;
+    /* make the border have animation */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+    /* the text have animation */
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+        /* make the color even better */
+    color: rgb(103, 164, 245);
+    /* make the text bigger */
+    font-size: 1.5em;
+    /* make the text bigger */
+    font-weight: bold;
+    /* make the text bigger */
+    text-decoration: none;
+    /* make the text bigger */
+    text-transform: uppercase;
+    /* make the text bigger */
+    text-align: center;
+    /* make the text bigger */
+    text-decoration: none;
+    /* make the text bigger */
+    text-transform: uppercase;
+    /* make the text bigger */
+    text-align: center;
+    /* make the text bigger */
+    text-decoration: none;
+    /* make the text bigger */
+    text-transform: uppercase;
+    /* make the text bigger */
+    text-align: center;
+
+    background-color: white;
+}
+
+#title {
+    /* make the title even better than before */
+    color: rgb(103, 164, 245);
+    /* make the text bigger */
+    font-size: 2.5em;
+    /* make the text bigger */
+    font-weight: bold;
+    /* make the text bigger */
+    text-decoration: none;
+    /* make the text bigger */
+    text-transform: uppercase;
+    /* make the text bigger */
+    text-align: center;
+    /* make the text bigger */
+    text-decoration: none;
+    /* make the text bigger */
+    text-transform: uppercase;
+
+    /* the text have own animation */
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    /* make the text have animation */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+     
+    /* make the text have animation idle */
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+
+    /* have border */
+    /* the border have shadow */
+    box-shadow: 0px 0px 10px rgb(103, 164, 245);
+    /* the border have animation */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+    border-bottom: 3px solid rgb(236, 247, 173);
+
+    /* the border have animation */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+    /* the border have animation idle */
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+
+    /* the background have animation */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+    /* make the background color animate */
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+
+    /* make the background color even better */
+    background-color: rgb(236, 247, 173);
+    
+}
+
+/* when the cursor hover the title make it better */
+#title:hover{
+    transition: all 0.5s ease-in-out;
+    /* make the border have animation */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+    /* make animation even better than before */
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    /* make the text have animation */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+
+    /* make the color even better */
+    color: rgb(103, 164, 245);
+    /* make the text bigger */
+    font-size: 2.5em;
+    /* make the text bigger */
+    font-weight: bold;
+    /* make the text bigger */
+    text-decoration: none;
+    /* make the text bigger */
+    text-transform: uppercase;
+    /* make the text bigger */
+    text-align: center;
+    /* make the text bigger */
+    text-decoration: none;
+    /* make the text bigger */
+    text-transform: uppercase;
+    /* make the text bigger */
+    text-align: center;
+    /* make the text bigger */
+    text-decoration: none;
+    /* make the text bigger */
+    text-transform: uppercase;
+    /* make the text bigger */
+    text-align: center;
+
+    background-color: white;
+}
+
+
+/* make the title even better and cool */
+#title:hover{
+    transition: all 0.5s ease-in-out;
+    /* make the border have animation */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+    /* make animation even better than before */
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    /* make the text have animation */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+    /* make it glowing */
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    -ms-animation: glow 1s ease-in-out infinite alternate;
+    -o-animation: glow 1s ease-in-out infinite alternate;
+
+    /* make it have shadow */
+    box-shadow: 1px 5px 50px rgb(255, 255, 255);
+    /* make the text have animation */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+/* make it if the pages resize have animation even all the text */
+@media screen and (max-width: 500px){
+    #title{
+        /* make it cool transition if the pages is resize */
+        transition: all 0.5s ease-in-out;
+        /* make the border have animation */
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+
+        /* make animation even better than before */
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+        /* make the text have animation */
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+
+        /* if the pages is rezie change the background color */
+        -webkit-transition-delay: 0.5s;
+        -moz-transition-delay: 0.5s;
+        -ms-transition-delay: 0.5s;
+        -o-transition-delay: 0.5s;
+
+        /* make the background color animate */
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+
+        /* make the background color even better */
+        background-color: rgb(247, 142, 142);
+        
+    }
+
+    .menu-item {
+        /* make it better */
+        transition: all 0.5s ease-in-out;
+        /* make the border have animation */
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+
+        /* make animation even better than before */
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+        /* make the text have animation */
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+
+        /* make it glowing */
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        -ms-animation: glow 1s ease-in-out infinite alternate;
+        -o-animation: glow 1s ease-in-out infinite alternate;
+
+        /* change the background color when the pages is resize */
+        -webkit-transition-delay: 0.5s;
+        -moz-transition-delay: 0.5s;
+        -ms-transition-delay: 0.5s;
+        -o-transition-delay: 0.5s;
+
+        /* make the background color animate */
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+
+        /* change the border color to the lightGray */
+        border-color: rgb(121, 121, 121);
+    }
+
+    .main-menu{
+        /* make it have same animation */
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+
+        /* make it have same animation */
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+
+                border-color: rgb(121, 121, 121);
+    }
+
+ .menu-item a{
+        /* make it better and same */
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        
+        /* make it have same animation */
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+
+                border-color: rgb(121, 121, 121);
+    }
+}

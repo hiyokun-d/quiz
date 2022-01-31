@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quizStyle.css">
+    <title>QUIZ</title>
+</head>
+<body>
+    <!-- quiz -->
+    <h1 id="title">quiz <br> settings</h1>
+
+    <!-- make the select menu -->
+    <div id="difficult">
+        <h3>DIFFICULTY</h3>
+        <p>(on going)</p>
+        <select id="difficult-menu">
+            <option name="easy" class="easy" value="easy" >easy🟢</option>
+            <option name="medium" class="medium" value="medium" >medium🟡</option>
+            <option name="hard" class="hard" value="hard" >🥵hard🔴</option>
+        </select>
+    </div>
+
+    <div id="theme">
+        <h3>theme</h3>
+        <select id="theme-menu">
+            <option value="animals">animals</option>
+            <option value="sports">sports</option>
+            <option value="geography">geography</option>
+            <option value="gabutz">gabutz</option>
+            <option value="hiyo">hiyo (Indonesia language)</option>
+            <option value="history">history</option>
+        </select>
+    </div>
+
+    
+    <!-- make the play button also the script -->
+    <div id="play-button">
+        <button id="play-button-text">play</button>
+    </div>
+    
+    <script src="js/quizScript.js"></script>
+
+    <!-- make the footer -->
+    <div id="footer">
+        <p>© 2020 by <a href="github.com/hiyokun-d" target="_blank">hiyo</a></p>
+    </div>
+
+    <div id="anotherButton">
+        <a href="../index.html" id="home">home</a>
+        <a href="about.html" id="about">about</a>
+    </div>
+
+        
+    <!-- answer of the quiz -->
+    <div id="quizContainer">
+        <p><span id="question">if you see this MAN THIS IS ERROR</span></p>
+        
+        <div id="answer">
+            <h3>choose your answer</h3>
+            <!-- button for choose the answer -->
+            <button class="choose" id="A" value="A">A</button>
+            <button class="choose" id="B" value="B">B</button>
+            <button class="choose" id="C" value="C">C</button>
+            <button class="choose" id="D" value="D">D</button>
+
+            <!-- timer -->
+            <div id="timer">
+                <p>time: <span id="time">0</span></p>
+            </div>
+
+            <!-- score -->
+            <div id="scoreDiv">
+                <p>score: <span id="score">=-=-=-=-=-=</span></p>
+            </div>
+    </div>
+</body>
+</html>
